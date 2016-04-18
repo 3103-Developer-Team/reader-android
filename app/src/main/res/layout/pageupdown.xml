@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tv"
+        android:singleLine="false"
+        android:scrollbars="vertical"
+        android:text="dfkjgsdfhkkssdfkhn"
+        android:layout_marginBottom="55dp"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal">
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:id="@+id/pgup"
+            android:text="上一页"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:id="@+id/pgdn"
+            android:layout_alignTop="@+id/pgup"
+            android:layout_toRightOf="@+id/pgup"
+            android:text="下一页"
+            android:layout_marginLeft="50dp"/>
+
+    </RelativeLayout>
+</RelativeLayout>

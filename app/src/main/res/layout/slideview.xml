@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<!--<android.support.v4.view.ViewPager-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:id="@+id/viewpager"-->
+    <!--android:layout_gravity="center">-->
+
+<!--</android.support.v4.view.ViewPager>-->
+    <!--<android.gesture.GestureOverlayView-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="fill_parent"-->
+        <!--android:id="@+id/gesture"-->
+        <!--android:gestureStrokeType="multiple">-->
+    <!--</android.gesture.GestureOverlayView>-->
+
+    <!--<TextView-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="fill_parent"-->
+        <!--android:id="@+id/tv"-->
+        <!--android:singleLine="false"-->
+        <!--android:scrollbars="vertical"-->
+        <!--android:text="dfkjgsdfhkkssdfkhn"-->
+       <!--/>-->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="hello" />
+
+</LinearLayout>
